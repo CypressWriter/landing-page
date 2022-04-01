@@ -54,10 +54,96 @@ a {
 .infobox {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .boxes {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 60px;
+}
+
+.text {
+    inline-size: 200px;
+}
+
+.rounded {
+    border-radius: 50px;
+}
+
+.middlethird
+{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 200px;
+    height: 300px;
+}
+
+.testament{
+    font-family: sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin: 0px 300px;
+}
+.person {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 18px;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    margin: 0px 300px;
+}
+
+.middlefourth
+{
+    display: flex;
+    background-color:white;
+    justify-content: center;
+    padding: 60px;
+}
+.actionbox
+{
+    display: flex;
+    flex-direction: row;
+    background-color:#0e81c4;
+    padding: 30px 100px;
+    border-radius: 25px;
+    
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.actionbutton{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    background-color: #0e81c4;
+    color:#FFFFFF;
+    font-size: 36px;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+}
+
+.footer
+{
+    display: flex;
+    background-color: #0e81c4;
+    justify-content: center;
+    padding: 24px;
+    font-family: sans-serif;
+}
+
+.whitetext
+{
+    color: white;
 }
